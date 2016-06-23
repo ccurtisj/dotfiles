@@ -1,0 +1,17 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+name = Christopher Curtis
+email = ccurtisj@gmail.com
+
+[push]
+default = upstream
+default = current
+
+[alias]
+co = checkout
+st = status
+lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+
+[core]
+editor = subl -n -w
