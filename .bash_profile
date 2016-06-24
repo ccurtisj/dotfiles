@@ -4,3 +4,4 @@ export EDITOR='subl -w'
 eval "$(rbenv init -)"
 
 source ~/dotfiles/git-completion.bash
+source ~/dotfiles/bash-prompt.bash
