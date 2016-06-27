@@ -12,6 +12,9 @@
     ".tmp",
     "dependencies",
     "log",
+    "node_modules"
+  ],
+  "file_exclude_patterns": [
     "charlie-xray-compiled.js"
   ],
   "font_face": "Operator Mono",
