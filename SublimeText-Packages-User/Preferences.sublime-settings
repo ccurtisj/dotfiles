@@ -1,33 +1,35 @@
 {
-  "bold_folder_labels": true,
-  "ensure_newline_at_eof_on_save": true,
-  "fade_fold_buttons": false,
-  "folder_exclude_patterns":
-  [
-    ".svn",
-    ".git",
-    ".hg",
-    "CVS",
-    "tmp",
-    ".tmp",
-    "dependencies",
-    "log",
-    "node_modules"
-  ],
-  "file_exclude_patterns": [
-    "charlie-xray-compiled.js"
-  ],
-  "font_face": "Operator Mono",
-  "font_size": 16.0,
-  "highlight_line": true,
-  "highlight_modified_tabs": true,
-  "ignored_packages":
-  [
-    "Vintage"
-  ],
-  "line_padding_bottom": 1,
-  "line_padding_top": 2,
-  "tab_size": 2,
-  "translate_tabs_to_spaces": true,
-  "trim_trailing_white_space_on_save": true
+	"bold_folder_labels": true,
+	"ensure_newline_at_eof_on_save": true,
+	"fade_fold_buttons": false,
+	"file_exclude_patterns":
+	[
+		"*-compiled.js",
+		".DS_Store"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"tmp",
+		".tmp",
+		"dependencies",
+		"log",
+		"node_modules"
+	],
+	"font_face": "Operator Mono",
+	"font_size": 14,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 2,
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
 }
