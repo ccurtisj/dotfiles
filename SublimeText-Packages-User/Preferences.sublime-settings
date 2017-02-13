@@ -1,7 +1,6 @@
 {
 	"bold_folder_labels": true,
-	// Valid values are "smooth", "phase", "blink" and "solid".
-  "caret_style": "phase",
+	"caret_style": "phase",
 	"ensure_newline_at_eof_on_save": true,
 	"fade_fold_buttons": false,
 	"file_exclude_patterns":
@@ -30,7 +29,10 @@
 	[
 		"Vintage"
 	],
-	"indent_guide_options": ["draw_active"], // draw_active
+	"indent_guide_options":
+	[
+		"draw_active"
+	],
 	"line_padding_bottom": 1,
 	"line_padding_top": 2,
 	"match_brackets_angle": true,
