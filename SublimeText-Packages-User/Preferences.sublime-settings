@@ -34,6 +34,7 @@
 	"line_padding_bottom": 1,
 	"line_padding_top": 2,
 	"match_brackets_angle": true,
+	"show_errors_inline": false,
 	"tab_size": 2,
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true
