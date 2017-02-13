@@ -4,7 +4,8 @@
 	"fade_fold_buttons": false,
 	"file_exclude_patterns":
 	[
-		"*-compiled.js",
+		"*compiled.js",
+		"*.js.map",
 		".DS_Store"
 	],
 	"folder_exclude_patterns":
