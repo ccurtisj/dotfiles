@@ -6,6 +6,14 @@
 	"installed_packages":
 	[
 		"Babel",
-		"Handlebars"
+		"Better CoffeeScript",
+		"Handlebars",
+		"Jade",
+		"Jasmine JS",
+		"Package Control",
+		"RSpec",
+		"Ruby Slim",
+		"RubyTest",
+		"SCSS"
 	]
 }
