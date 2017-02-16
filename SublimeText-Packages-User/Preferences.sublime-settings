@@ -19,7 +19,8 @@
 		".tmp",
 		"dependencies",
 		"log",
-		"node_modules"
+		"node_modules",
+		".sass-cache"
 	],
 	"font_face": "Operator Mono",
 	"font_size": 17,
