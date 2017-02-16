@@ -1,5 +1,5 @@
 .bootstrap.sh.swp
 *.cache*
 *.last-run
-*.ca-bundle
+*.*ca-bundle
 *.crt
