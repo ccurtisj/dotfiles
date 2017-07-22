@@ -16,3 +16,7 @@ alias bs="grunt bootstrap --env=development"
 alias npm_watch="npm run test-watch"
 
 alias ssh_hoodle="ssh -p 60911 deploy@104.236.100.153"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
