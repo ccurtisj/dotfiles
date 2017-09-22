@@ -22,10 +22,11 @@
 		"dependencies",
 		"log",
 		"node_modules",
-		".sass-cache"
+		".sass-cache",
+		"fixtures"
 	],
 	"font_face": "Operator Mono",
-	"font_size": 17,
+	"font_size": 18,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":

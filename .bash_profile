@@ -1,7 +1,8 @@
 export PATH="$PATH:~/bin"
 export PATH="$HOME/.rbenv/bin:$HOME/bin:$PATH"
-export EDITOR='subl -w'
 export PATH="/usr/local/opt/elasticsearch@1.7/bin:$PATH"
+export PATH="/usr/local/Cellar/node/8.1.3/bin:$PATH"
+export EDITOR='subl -w'
 
 eval "$(rbenv init -)"
 
