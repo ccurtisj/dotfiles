@@ -23,7 +23,7 @@
 		"log",
 		"node_modules",
 		".sass-cache",
-		"fixtures"
+		"spec/fixtures"
 	],
 	"font_face": "Operator Mono",
 	"font_size": 18,
