@@ -23,7 +23,9 @@
 		"log",
 		"node_modules",
 		".sass-cache",
-		"spec/fixtures"
+		"spec/fixtures",
+		"fixtures",
+		"_site"
 	],
 	"font_face": "Operator Mono",
 	"font_size": 17,
