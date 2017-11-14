@@ -25,7 +25,8 @@
 		".sass-cache",
 		"spec/fixtures",
 		"fixtures",
-		"_site"
+		"_site",
+		"extension"
 	],
 	"font_face": "Operator Mono",
 	"font_size": 17,
