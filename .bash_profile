@@ -14,7 +14,7 @@ alias git_log="git log --pretty=format:'%h - %an, %ar : %s'"
 alias git_report="git log --pretty=format:'%s' --since='yesterday'"
 
 alias bs="grunt bootstrap --env=development"
-alias npm_watch="npm run test-watch"
+alias test_watch="npm run test-watch"
 
 alias ssh_hoodle="ssh -p 60911 deploy@104.236.100.153"
 
