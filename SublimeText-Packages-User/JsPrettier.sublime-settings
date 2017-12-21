@@ -3,4 +3,5 @@
   "additional_cli_args": {
     "--config": "/Users/curtis/Projects/charlie-extension/.prettierrc",
   },
+  "auto_format_on_save": true,
 }
