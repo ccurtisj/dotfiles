@@ -1,0 +1,6 @@
+brew install yarn --without-node
+brew install diff-so-fancy
+brew install jenv
+brew install redis
+
+brew install postgis
