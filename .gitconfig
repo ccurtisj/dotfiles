@@ -14,7 +14,7 @@ st = status
 lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 
 [core]
-editor = subl -n -w
+	editor = subl -n -w
 	pager = diff-so-fancy | less --tabs=4 -RFX
 [color]
 	ui = true

@@ -6,3 +6,7 @@ Making life easier.
 
 1. `$ ./bootstrap.sh`
 2. Done
+
+## If necessary
+
+`ln -s ccurtisj curtis`
