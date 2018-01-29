@@ -1,3 +1,4 @@
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-brew install yarn --without-node diff-so-fancy rbenv jenv redis postgis
+brew install yarn --without-node 
+brew install diff-so-fancy rbenv jenv nvm redis postgis
