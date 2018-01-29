@@ -1,4 +1,8 @@
+# Instal Homebrew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 brew install yarn --without-node 
-brew install diff-so-fancy rbenv jenv nvm redis postgis
+brew install diff-so-fancy rbenv jenv redis postgis
+
+# Install NVM (not supported by brew)
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
