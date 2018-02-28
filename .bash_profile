@@ -27,3 +27,6 @@ export NVM_DIR="$HOME/.nvm"
 source ~/dotfiles/.nvm_auto/nvm_auto.sh
 eval "$(jenv init -)"
 export PATH="/usr/local/opt/mongodb@3.4/bin:$PATH"
+
+source ~/dotfiles/git-open.sh
+alias pr="open-pr"
