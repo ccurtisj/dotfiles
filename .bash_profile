@@ -9,7 +9,7 @@ eval "$(rbenv init -)"
 source ~/dotfiles/git-completion.bash
 source ~/dotfiles/bash-prompt.bash
 
-alias git_clean="git remote prune origin && git branch -vv | grep 'origin/.*: gone]' | awk '{print $1}' | xargs git branch -d"
+alias git_clean="git branch --merged master | grep -v \"\* master\" | xargs -n 1 git branch -d"
 alias git_nuke="git branch | grep -v 'master' | xargs git branch -D "
 alias git_log="git log --pretty=format:'%h - %an, %ar : %s'"
 alias git_report="git log --pretty=format:'%s' --since='yesterday'"
