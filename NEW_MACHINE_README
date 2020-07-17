@@ -1,5 +1,5 @@
 # Install Homebrew
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 brew install yarn --without-node
 brew install diff-so-fancy rbenv jenv redis postgis
